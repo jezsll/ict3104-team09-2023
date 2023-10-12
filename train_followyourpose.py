@@ -29,6 +29,9 @@ from followyourpose.pipelines.pipeline_followyourpose import FollowYourPosePipel
 from followyourpose.util import save_videos_grid, ddim_inversion
 from einops import rearrange
 
+# New imports
+from followyourpose.data.charades import CharadesDataset
+
 
 # Will error if the minimal version of diffusers is not installed. Remove at your own risks.
 check_min_version("0.10.0.dev0")
@@ -154,7 +157,8 @@ def main(
     )
 
     # Get the training dataset
-    train_dataset = HDVilaDataset(accelerator=accelerator, **train_data)
+    # train_dataset = HDVilaDataset(accelerator=accelerator, **train_data)
+    train_dataset = CharadesDataset(accelerator=accelerator, **train_data)
 
 
     # DataLoaders creation:
