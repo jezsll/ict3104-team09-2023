@@ -47,11 +47,151 @@
       ["2.80", "8.90"],
       ["5.70", "27.80"],
       ["2.70", "9.10"],
-      ["5.20", " 10.70"],
+      ["5.20", "10.70"],
       ["0.00", "8.90"],
       ["23.80", "33.00"],
       ["23.80", "33.00"]
     ],
     "length": 32.04
+  },
+  {
+    "id": "TVBN3",
+    "subject": "D0RU",
+    "scene": "Entryway (A hall that is generally located at the entrance of a house)",
+    "quality": 5,
+    "relevance": 7,
+    "verified": "Yes",
+    "script": "A person is walking in, holding a coffee.  They take a sip, smile, and pick up their phone to make a call.",
+    "objects": ["coffee", "cup", "dish", "doorway", "phone"],
+    "descriptions": "Person walks into room drinking from mug, picks up phone from table and talks on it",
+    "actions": [
+      ["5.40", "22.40"],
+      ["28.90", "33.00"],
+      ["1.90", "8.00"],
+      ["2.10", "33.00"],
+      ["20.40", "32.00"],
+      ["19.60", "25.40"],
+      ["20.70", "33.00"],
+      ["3.00", "33.00"]
+    ],
+    "length": 31.5
+  },
+  {
+    "id": "TVCQF",
+    "subject": "18IT",
+    "scene": "Home Office / Study (A room in a house used for work)",
+    "quality": 6,
+    "relevance": 6,
+    "verified": "Yes",
+    "script": "One person in the doorway pours a drink and starts drinking. Another person closes a box on a shelf that has a stack of homework on it.",
+    "objects": ["book", "bottle", "box", "closet", "desk", "doorway", "paper", "table", "water"],
+    "descriptions": "A person is drinking water, while another person is opening a box.;A person walks in a room and pours a bit of water out, then stands in the doorway drinking the water from a bottle.  Another person in the room gets up from their desk, goes to the closet and begins to look through a box.",
+    "actions": [
+      ["12.00", "17.00"],
+      ["6.00", "12.00"],
+      ["0.00", "4.00"],
+      ["8.90", "15.00"],
+      ["4.70", "10.70"],
+      ["12.30", "24.70"],
+      ["6.50", "13.90"]
+    ],
+    "length": 24.46
+  },
+  {
+    "id": "TVQO9",
+    "subject": "DXDI",
+    "scene": "Dining room",
+    "quality": 5,
+    "relevance": 7,
+    "verified": "Yes",
+    "script": "Person is standing in dining room snuggling with clothes while drinking cup of coffee.",
+    "objects": ["blanket", "clothes", "cup", "dish"],
+    "descriptions": "The person holds a cup. The person rubs their face with clothes. The person takes a few steps. The person drinks from the cup and rubs their face with the clothes again.",
+    "actions": [
+      ["2.30", "9.00"],
+      ["0.00", "32.00"],
+      ["0.00", "32.00"],
+      ["0.00", "9.00"],
+      ["5.20", "16.70"],
+      ["0.00", "32.00"],
+      ["0.00", "32.00"]
+    ],
+    "length": 30.58
+  },
+  {
+    "id": "TVS1P",
+    "subject": "KFGP",
+    "scene": "Bathroom",
+    "quality": 4,
+    "relevance": 4,
+    "verified": "Yes",
+    "script": "A person is snuggling a blanket.  Then a person is standing up to turn off the light.",
+    "objects": ["blanket", "light", "toilet", "towel"],
+    "descriptions": "A person is sitting while snuggling and sleeping with a blanket then awakens and turns out the light.;A person sits on a toilet snuggling a towel, they then get up and leave, turning off the light.",
+    "actions": [
+      ["21.40", "25.90"],
+      ["0.00", "24.70"],
+      ["17.00", "23.60"]
+    ],
+    "length": 25.79
+  },
+  {
+    "id": "TVTV7",
+    "subject": "1TZV",
+    "scene": "Dining room",
+    "quality": 6,
+    "relevance": 7,
+    "verified": "Yes",
+    "script": "A person is snuggling with a table, then the person starts standing up and begins to vacuum.",
+    "objects": ["floor", "table", "vacuum"],
+    "descriptions": "A person is lying on and snuggling with a table, they then get up and begin vacuuming the floor.",
+    "actions": [
+      ["13.20", "29.00"],
+      ["0.00", "16.90"],
+      ["11.90", "17.60"],
+      ["12.60", "29.00"]
+    ],
+    "length": 28.04
+  },
+  {
+    "id": "TW2F4",
+    "subject": "QOQ4",
+    "scene": "Living room",
+    "quality": 5,
+    "relevance": 7,
+    "verified": "Yes",
+    "script": "A person is putting the phone on a shelf. Then the person begins undressing and wraps himself in a blanket before sitting on the sofa.",
+    "objects": ["blanket", "chair", "clothes", "jacket", "sofa"],
+    "descriptions": "A person undresses out of some clothes then grabs a blanket and wraps up in it then sits down.;A person takes of a jackets and throws it on a sofa. The person then picks up a blanket and wraps themselves in it and sit on the sofa.",
+    "actions": [
+      ["18.30", "32.00"],
+      ["26.50", "32.00"],
+      ["26.60", "32.00"],
+      ["12.90", "18.50"],
+      ["3.80", "16.30"],
+      ["26.10", "32.00"]
+    ],
+    "length": 31.42
+  },
+  {
+    "id": "TW3RS",
+    "subject": "1TZV",
+    "scene": "Garage",
+    "quality": 7,
+    "relevance": 7,
+    "verified": "Yes",
+    "script": "One person grasps a book and a mirror, then starts laughing into the mirror.",
+    "objects": ["book", "chair", "mirror"],
+    "descriptions": "A person is picking up a book from a table and looking at themselves and smiling in a mirror.;A person grabs a book and a mirror from a chair and laughs in the mirror.",
+    "actions": [
+      ["3.90", "28.00"],
+      ["1.00", "28.00"],
+      ["4.10", "28.00"],
+      ["4.60", "10.20"],
+      ["1.50", "28.00"],
+      ["3.50", "28.00"],
+      ["0.70", "5.10"]
+    ],
+    "length": 26.96
   }
 ]
