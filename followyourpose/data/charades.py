@@ -57,7 +57,7 @@ class CharadesDataset(Dataset):
         #--------New code -------------------------------------#
     
         # Set metadata path
-        self.meta_path = 'Data/CharadesVideos2/metaData.json'
+        self.meta_path = 'Data/CharadesVideos/metaData.json'
         # Set video directory
         self.data_dir = video_path
 
